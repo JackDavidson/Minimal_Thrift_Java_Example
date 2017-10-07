@@ -1,7 +1,7 @@
 #!/bin/bash
 
 thrift --gen java isalive.thrift
-mv gen-java/* ./code
+mv gen-java/* ./code/src/main/java
 
 cd ./code
 # build, using the thrift version you have installed.
