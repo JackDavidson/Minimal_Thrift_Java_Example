@@ -1,0 +1,9 @@
+First, you need thrift, java/javac, and mvn:
+
+on ubuntu, you can install each using:
+  sudo apt-get install thrift-compiler
+  sudo apt-get install openjdk-8-jdk
+  sudo apt-get install maven
+
+then, run the example:
+  ./compileAndRun.sh
